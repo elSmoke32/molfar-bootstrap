@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Nerko+One&display=swap");
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: Nerko One;
+  background-color: #e8e8e8;
+}
+
+section {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.carousel-control-prev-icon {
+  background-image: url(/img/prew.svg);
+}
+
+.carousel-control-next-icon {
+  background-image: url(/img/next.svg);
+}
+
+img.w-100 {
+  height: 800px;
+}
